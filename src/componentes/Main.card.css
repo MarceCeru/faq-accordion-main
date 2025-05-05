@@ -1,0 +1,11 @@
+.card {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 375px;
+    padding-bottom: 145px; 
+    margin-bottom: 30px;
+    background-color: var(--Purple-100);
+    background-image: url('./images/background-pattern-mobile.svg');
+    background-repeat: no-repeat;
+}

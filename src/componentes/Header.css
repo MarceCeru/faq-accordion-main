@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    padding-left: 25px;
+
+
+    & .start {
+        width: 22px;
+    }
+
+    & h1 {
+        font-weight: 700;
+        font-size: 30px;
+        margin-left: 25px;
+    }
+}

@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Work-Sans', sans-serif;
+  font-weight: 400, 600, 700;
+  src: url('../assets/WorkSans-VariableFont_wght.ttf') format('truetype');
+}
+
+:root {
+  --White: hsl(0, 100%, 100%);
+  --Purple-100: hsl(275, 100%, 97%);
+  --Purple-600: hsl(292, 16%, 49%);
+  --Purple-950: hsl(292, 42%, 14%);
+  --Purple-50: hsl(189, 81%, 94%);
+
+  --fuente-principal: 'Work-Sans', sans-serif;
+}
